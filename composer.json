@@ -1,0 +1,20 @@
+{
+    "name": "numibu/multithreads-parser",
+    "description": "Parser site in multiple threads.",
+    "type": "project",
+    "require": {
+        "php": "7.1",
+        "krakjoe/pthreads-polyfill": ">=3.1.6"
+    },
+    "authors": [
+        {
+            "name": "alexandrr.naumenko",
+            "email": "alexandrr.naumenko@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "autoload\\": "/"
+        }
+    }
+}
