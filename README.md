@@ -14,5 +14,6 @@ _All treads in php is absolute isolated, and must returnet primitive or Volatile
 _The extension based on pthreads cannot be used in a web server environment. Threading in PHP should therefore remain to CLI-based applications only._
 
 **dependis:**
-php7.1+ (zts enabled);
-pthreads >3.1.6;
+- php7.1+ (zts enabled);
+- pthreads >3.1.6;
+- CURL;
